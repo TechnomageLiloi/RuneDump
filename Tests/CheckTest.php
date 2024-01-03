@@ -1,6 +1,6 @@
 <?php
 
-namespace Liloi\RuneDump;
+namespace Liloi\Rune\Dump;
 
 use PHPUnit\Framework\TestCase;
 

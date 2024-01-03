@@ -1,6 +1,6 @@
 <?php
 
-namespace Liloi\RuneDump;
+namespace Liloi\Rune\Dump;
 
 use Liloi\API\Manager;
 use Liloi\Config\Pool;

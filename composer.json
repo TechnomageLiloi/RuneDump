@@ -18,7 +18,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Liloi\\RuneDump\\": ["Module", "Tests"]
+            "Liloi\\Rune\\Dump\\": ["Module", "Tests"]
         }
     }
 }
