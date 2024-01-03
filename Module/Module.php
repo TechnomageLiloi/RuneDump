@@ -3,6 +3,7 @@
 namespace Liloi\Rune\Dump;
 
 use Liloi\API\Manager;
+use Liloi\API\Method;
 use Liloi\Config\Pool;
 
 /**
@@ -17,7 +18,8 @@ class Module
      *
      * Format: Module->bind($manager, $config);`
      */
-    public function bind(Manager $manager, Pool $config): void
+    public static function bind(Manager $manager, Pool $config): void
     {
+        $manager->add(new Method('Rune.Dump.Dump', '\Liloi\Rune\Dump\API\Dump::execute'));
     }
 }
